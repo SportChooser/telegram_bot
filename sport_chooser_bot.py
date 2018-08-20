@@ -25,7 +25,7 @@ def startChess(message):
     global is_reg_open
     global users_chess
     is_reg_open['chess'] == 0
-    random.shuffle(users_chess)
+    #random.shuffle(users_chess)
     if len(users_chess) == 0:
         return
     if len(users_chess) % 2 != 0:
@@ -43,7 +43,7 @@ def startTennis(message):
     global is_reg_open
     global users_tennis
     is_reg_open['tennis'] == 0
-    random.shuffle(users_tennis)
+    #random.shuffle(users_tennis)
     if len(users_tennis) == 0:
         return
     if len(users_tennis) % 2 != 0:
